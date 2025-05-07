@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: update_appts_events
+    description: "Updates APPTS_EVENTS table by joining Employees and Appointments data."
+    columns:
+      - name: File_Number
+        description: "Unique Employee ID"
+      - name: Job_Code
+        description: "Employee Job Code"
+      - name: Job_Type
+        description: "Type of Job"
+      - name: Start_Date_Time
+        description: "Timestamp for appointment start"
+      - name: End_Date
+        description: "Fixed appointment end date"
+      - name: Supervisor_Number
+        description: "Supervisor assigned to employee"
+      - name: OU_Code
+        description: "Organizational Unit Code"
+      - name: maker_id
+        description: "Maker ID linked to appointments"
+      - name: interview_type_id
+        description: "Interview Type Identifier"
+      - name: int_description
+        description: "Interview Description"
+      - name: scheduled_date
+        description: "Scheduled appointment date"
+      - name: scheduled_start_time
+        description: "Start time for appointment"
+      - name: scheduled_end_time
+        description: "End time for appointment"
